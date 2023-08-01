@@ -32,7 +32,7 @@ namespace BookStore.Controllers
             return await _repositoryManager.Order.CreateOrder(orderModel);
         }
 
-        /// <summary>
+        /// <summary> 
         /// Добавляет книгу в заказ
         /// </summary>
         /// <param name="orderId">Id заказа</param>
